@@ -1,0 +1,14 @@
+name: event-network
+
+topology:
+  nodes:
+    node01:
+      kind: linux
+      image: alpine:3.20
+
+    node02:
+      kind: linux
+      image: alpine:3.20
+
+  links:
+    - endpoints: ["node01:eth1", "node02:eth1"]

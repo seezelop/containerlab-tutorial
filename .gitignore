@@ -1,0 +1,5 @@
+# Containerlab runtime files
+clab-*/
+
+# VS Code Containerlab annotations
+*.annotations.json
