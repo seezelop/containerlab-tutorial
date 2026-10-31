@@ -2,6 +2,12 @@
 
 Esta guía muestra paso a paso cómo crear una topología básica con Containerlab utilizando dos contenedores Linux conectados entre sí.
 
+## Topología
+
+![Topología del laboratorio](../images/event-network.svg)
+
+
+
 El objetivo es aprender el flujo básico de trabajo:
 
 ```text
