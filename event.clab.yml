@@ -5,10 +5,14 @@ topology:
     node01:
       kind: linux
       image: alpine:3.20
+      exec:
+        - ip addr add 10.100.0.1/30 dev eth1
 
     node02:
       kind: linux
       image: alpine:3.20
+      exec:
+        - ip addr add 10.100.0.2/30 dev eth1
 
   links:
     - endpoints: ["node01:eth1", "node02:eth1"]
