@@ -1,0 +1,18 @@
+name: ovs-basico
+
+topology:
+  nodes:
+    host1:
+      kind: linux
+      image: alpine:3.20
+
+    host2:
+      kind: linux
+      image: alpine:3.20
+
+    sw1:
+      kind: ovs-bridge
+
+  links:
+    - endpoints: ["host1:eth1", "sw1:eth1"]
+    - endpoints: ["host2:eth1", "sw1:eth2"]
