@@ -69,7 +69,7 @@ Bridge sw1
 Crear el archivo:
 
 ```text
-inter-vlan-routing.clab.yml
+topologies/inter-vlan-routing.clab.yml
 ```
 
 Contenido:
@@ -141,13 +141,13 @@ eth1.20 -> VLAN 20
 Ejecutar:
 
 ```bash
-sudo containerlab deploy -t inter-vlan-routing.clab.yml
+sudo containerlab deploy -t topologies/inter-vlan-routing.clab.yml
 ```
 
 Inspeccionar:
 
 ```bash
-sudo containerlab inspect -t inter-vlan-routing.clab.yml
+sudo containerlab inspect -t topologies/inter-vlan-routing.clab.yml
 ```
 
 ---
@@ -654,7 +654,7 @@ Antes de comenzar otro laboratorio, verificar y limpiar los recursos del actual.
 ## 20.1 Destruir Containerlab
 
 ```bash
-sudo containerlab destroy -t inter-vlan-routing.clab.yml
+sudo containerlab destroy -t topologies/inter-vlan-routing.clab.yml
 ```
 
 ## 20.2 Verificar contenedores

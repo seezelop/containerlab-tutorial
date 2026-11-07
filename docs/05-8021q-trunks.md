@@ -59,7 +59,7 @@ Bridge sw2
 Crear el archivo:
 
 ```text
-ovs-trunk.clab.yml
+topologies/ovs-trunk.clab.yml
 ```
 
 Contenido:
@@ -110,13 +110,13 @@ Los nombres de las interfaces OVS se mantienen únicos porque ambos bridges vive
 Ejecutar:
 
 ```bash
-sudo containerlab deploy -t ovs-trunk.clab.yml
+sudo containerlab deploy -t topologies/ovs-trunk.clab.yml
 ```
 
 Inspeccionar:
 
 ```bash
-sudo containerlab inspect -t ovs-trunk.clab.yml
+sudo containerlab inspect -t topologies/ovs-trunk.clab.yml
 ```
 
 ---
@@ -501,7 +501,7 @@ Con 802.1Q, un único enlace puede transportar tráfico perteneciente a múltipl
 Eliminar los nodos y enlaces de Containerlab:
 
 ```bash
-sudo containerlab destroy -t ovs-trunk.clab.yml
+sudo containerlab destroy -t topologies/ovs-trunk.clab.yml
 ```
 
 Los bridges OVS fueron creados manualmente en el host y pueden continuar existiendo.

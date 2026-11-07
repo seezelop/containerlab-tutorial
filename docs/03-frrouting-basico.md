@@ -55,7 +55,7 @@ containerlab version
 Crear el archivo:
 
 ```text
-frr-basico.clab.yml
+topologies/frr-basico.clab.yml
 ```
 
 Agregar:
@@ -96,13 +96,13 @@ r1:eth1 <------> r2:eth1
 Ejecutar:
 
 ```bash
-sudo containerlab deploy -t frr-basico.clab.yml
+sudo containerlab deploy -t topologies/frr-basico.clab.yml
 ```
 
 Después inspeccionar:
 
 ```bash
-sudo containerlab inspect -t frr-basico.clab.yml
+sudo containerlab inspect -t topologies/frr-basico.clab.yml
 ```
 
 Deberían aparecer los nodos:
@@ -488,7 +488,7 @@ interface eth1
 Destruir el laboratorio:
 
 ```bash
-sudo containerlab destroy -t frr-basico.clab.yml
+sudo containerlab destroy -t topologies/frr-basico.clab.yml
 ```
 
 No utilizar `--cleanup`, ya que se desea conservar el directorio con los archivos de configuración.
@@ -502,7 +502,7 @@ ls clab-frr-basico
 Volver a desplegar:
 
 ```bash
-sudo containerlab deploy -t frr-basico.clab.yml
+sudo containerlab deploy -t topologies/frr-basico.clab.yml
 ```
 
 No configurar ninguna dirección manualmente.

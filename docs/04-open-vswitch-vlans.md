@@ -82,7 +82,7 @@ ip link show sw1
 Crear el archivo:
 
 ```text
-ovs-basico.clab.yml
+topologies/ovs-basico.clab.yml
 ```
 
 Contenido:
@@ -128,13 +128,13 @@ host2:eth1 ---- sw1:eth2
 Ejecutar:
 
 ```bash
-sudo containerlab deploy -t ovs-basico.clab.yml
+sudo containerlab deploy -t topologies/ovs-basico.clab.yml
 ```
 
 Inspeccionar:
 
 ```bash
-sudo containerlab inspect -t ovs-basico.clab.yml
+sudo containerlab inspect -t topologies/ovs-basico.clab.yml
 ```
 
 Los hosts Linux deberían aparecer en ejecución.
@@ -448,7 +448,7 @@ host1 VLAN 10   X   host2 VLAN 20
 Cuando ya no sea necesario mantener la topología activa:
 
 ```bash
-sudo containerlab destroy -t ovs-basico.clab.yml
+sudo containerlab destroy -t topologies/ovs-basico.clab.yml
 ```
 
 Esto elimina los nodos y enlaces creados por Containerlab.

@@ -131,7 +131,7 @@ El punto `.` indica que Visual Studio Code debe abrir el directorio actual.
 Crear el archivo:
 
 ```text
-event.clab.yml
+topologies/event.clab.yml
 ```
 
 Agregar el siguiente contenido:
@@ -226,13 +226,13 @@ ls
 Debería aparecer:
 
 ```text
-event.clab.yml
+topologies/event.clab.yml
 ```
 
 Mostrar el contenido del archivo:
 
 ```bash
-cat event.clab.yml
+cat topologies/event.clab.yml
 ```
 
 Esto permite verificar desde la terminal que la topología fue guardada correctamente.
@@ -244,7 +244,7 @@ Esto permite verificar desde la terminal que la topología fue guardada correcta
 Ejecutar:
 
 ```bash
-sudo containerlab deploy -t event.clab.yml
+sudo containerlab deploy -t topologies/event.clab.yml
 ```
 
 El comando:
@@ -258,7 +258,7 @@ despliega la topología.
 La opción:
 
 ```text
--t event.clab.yml
+-t topologies/event.clab.yml
 ```
 
 indica qué archivo debe utilizar Containerlab.
@@ -279,7 +279,7 @@ clab-event-network-node02
 Ejecutar:
 
 ```bash
-sudo containerlab inspect -t event.clab.yml
+sudo containerlab inspect -t topologies/event.clab.yml
 ```
 
 Los dos nodos deberían aparecer en ejecución.
@@ -493,7 +493,7 @@ En una red IPv4 local, Linux utiliza ARP para relacionar una dirección IP con u
 Cuando ya no sea necesario mantener la topología activa, ejecutar:
 
 ```bash
-sudo containerlab destroy -t event.clab.yml
+sudo containerlab destroy -t topologies/event.clab.yml
 ```
 
 Este comando elimina los contenedores y enlaces creados por Containerlab para esta topología.
@@ -529,8 +529,8 @@ fueron agregadas manualmente después del despliegue.
 Si la topología se destruye y vuelve a desplegarse:
 
 ```bash
-sudo containerlab destroy -t event.clab.yml
-sudo containerlab deploy -t event.clab.yml
+sudo containerlab destroy -t topologies/event.clab.yml
+sudo containerlab deploy -t topologies/event.clab.yml
 ```
 
 los contenedores se crearán nuevamente, pero las direcciones configuradas manualmente sobre `eth1` no estarán presentes.

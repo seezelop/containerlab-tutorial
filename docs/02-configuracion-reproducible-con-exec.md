@@ -17,7 +17,7 @@ node01 -------- node02
 Archivo:
 
 ```text
-event.clab.yml
+topologies/event.clab.yml
 ```
 
 Contenido inicial:
@@ -60,13 +60,13 @@ esas configuraciones desaparecen cuando los contenedores se destruyen.
 Por ejemplo:
 
 ```bash
-sudo containerlab destroy -t event.clab.yml
+sudo containerlab destroy -t topologies/event.clab.yml
 ```
 
 Después de volver a desplegar:
 
 ```bash
-sudo containerlab deploy -t event.clab.yml
+sudo containerlab deploy -t topologies/event.clab.yml
 ```
 
 las interfaces `eth1` vuelven a existir, pero las direcciones configuradas manualmente ya no están presentes.
@@ -75,7 +75,7 @@ las interfaces `eth1` vuelven a existir, pero las direcciones configuradas manua
 
 # 3. Agregar configuración automática con `exec`
 
-Modificar `event.clab.yml`:
+Modificar `topologies/event.clab.yml`:
 
 ```yaml
 name: event-network
@@ -148,7 +148,7 @@ node01 ---------------- node02
 Si el laboratorio ya está desplegado, eliminarlo:
 
 ```bash
-sudo containerlab destroy -t event.clab.yml
+sudo containerlab destroy -t topologies/event.clab.yml
 ```
 
 Verificar:
@@ -173,7 +173,7 @@ ya no deberían aparecer.
 Ejecutar:
 
 ```bash
-sudo containerlab deploy -t event.clab.yml
+sudo containerlab deploy -t topologies/event.clab.yml
 ```
 
 En este caso no es necesario ejecutar manualmente comandos `ip addr add`.
@@ -245,13 +245,13 @@ Si ambos responden correctamente, las direcciones configuradas mediante `exec` e
 Destruir nuevamente el laboratorio:
 
 ```bash
-sudo containerlab destroy -t event.clab.yml
+sudo containerlab destroy -t topologies/event.clab.yml
 ```
 
 Volver a desplegar:
 
 ```bash
-sudo containerlab deploy -t event.clab.yml
+sudo containerlab deploy -t topologies/event.clab.yml
 ```
 
 Sin ejecutar ninguna configuración manual, comprobar otra vez:
@@ -286,7 +286,7 @@ La configuración queda declarada en el archivo YAML y puede reconstruirse autom
 Flujo:
 
 ```text
-event.clab.yml
+topologies/event.clab.yml
       ↓
 containerlab deploy
       ↓
