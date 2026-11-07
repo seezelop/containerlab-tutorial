@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="744" height="413" viewBox="0 0 744 413"><rect x="0" y="0" width="744" height="413" fill="#1e1e1e"/><defs>
+<filter id="text-shadow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="1.5" result="blur"/>
+  <feFlood flood-color="#3C3E41" result="color"/>
+  <feComposite in="color" in2="blur" operator="in" result="shadow"/>
+  <feMerge>
+    <feMergeNode in="shadow"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+</defs><g class="export-graph-layer" transform="translate(62.68398950977729, -78.40650994214474) scale(0.7260825473711291)"><g class="export-edge" data-id="Clab-Link0"><path d="M 400 420 L 400 260" fill="none" stroke="#00df2b" stroke-width="4" opacity="0.5"/><g class="edge-label"><rect x="388.2685546875" y="394" width="23.462890625" height="12" fill="rgb(18, 19, 20)" rx="4" ry="4"/><text x="400" y="400" font-size="10" font-family="&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif" dominant-baseline="central" fill="rgb(187, 190, 191)" text-anchor="middle">eth1</text></g><g class="edge-label"><rect x="372.9951171875" y="274" width="54.009765625" height="12" fill="rgb(18, 19, 20)" rx="4" ry="4"/><text x="400" y="280" font-size="10" font-family="&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif" dominant-baseline="central" fill="rgb(187, 190, 191)" text-anchor="middle">core-r1-link</text></g></g><g class="export-edge" data-id="Clab-Link1"><path d="M 420 240 L 520 240" fill="none" stroke="#00df2b" stroke-width="4" opacity="0.5"/><g class="edge-label"><rect x="416.046875" y="234" width="47.90625" height="12" fill="rgb(18, 19, 20)" rx="4" ry="4"/><text x="440" y="240" font-size="10" font-family="&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif" dominant-baseline="central" fill="rgb(187, 190, 191)" text-anchor="middle">core-dist1</text></g><g class="edge-label"><rect x="476.046875" y="234" width="47.90625" height="12" fill="rgb(18, 19, 20)" rx="4" ry="4"/><text x="500" y="240" font-size="10" font-family="&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif" dominant-baseline="central" fill="rgb(187, 190, 191)" text-anchor="middle">dist1-core</text></g></g><g class="export-edge" data-id="Clab-Link2"><path d="M 380 240 L 240 240" fill="none" stroke="#00df2b" stroke-width="4" opacity="0.5"/><g class="edge-label"><rect x="336.046875" y="234" width="47.90625" height="12" fill="rgb(18, 19, 20)" rx="4" ry="4"/><text x="360" y="240" font-size="10" font-family="&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif" dominant-baseline="central" fill="rgb(187, 190, 191)" text-anchor="middle">core-dist2</text></g><g class="edge-label"><rect x="236.046875" y="234" width="47.90625" height="12" fill="rgb(18, 19, 20)" rx="4" ry="4"/><text x="260" y="240" font-size="10" font-family="&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif" dominant-baseline="central" fill="rgb(187, 190, 191)" text-anchor="middle">dist2-core</text></g></g><g class="export-edge" data-id="Clab-Link3"><path d="M 660 240 L 560 240" fill="none" stroke="#00df2b" stroke-width="4" opacity="0.5"/><g class="edge-label"><rect x="628.2685546875" y="234" width="23.462890625" height="12" fill="rgb(18, 19, 20)" rx="4" ry="4"/><text x="640" y="240" font-size="10" font-family="&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif" dominant-baseline="central" fill="rgb(187, 190, 191)" text-anchor="middle">eth1</text></g><g class="edge-label"><rect x="553.5419921875" y="234" width="52.916015625" height="12" fill="rgb(18, 19, 20)" rx="4" ry="4"/><text x="580" y="240" font-size="10" font-family="&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif" dominant-baseline="central" fill="rgb(187, 190, 191)" text-anchor="middle">dist1-host1</text></g></g><g class="export-edge" data-id="Clab-Link4"><path d="M 100 240 L 200 240" fill="none" stroke="#00df2b" stroke-width="4" opacity="0.5"/><g class="edge-label"><rect x="108.2685546875" y="234" width="23.462890625" height="12" fill="rgb(18, 19, 20)" rx="4" ry="4"/><text x="120" y="240" font-size="10" font-family="&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif" dominant-baseline="central" fill="rgb(187, 190, 191)" text-anchor="middle">eth1</text></g><g class="edge-label"><rect x="153.5419921875" y="234" width="52.916015625" height="12" fill="rgb(18, 19, 20)" rx="4" ry="4"/><text x="180" y="240" font-size="10" font-family="&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif" dominant-baseline="central" fill="rgb(187, 190, 191)" text-anchor="middle">dist2-host2</text></g></g><g class="export-edge" data-id="Clab-Link5"><path d="M 420 440 L 500 440" fill="none" stroke="#00df2b" stroke-width="4" opacity="0.5"/><g class="edge-label"><rect x="428.2685546875" y="434" width="23.462890625" height="12" fill="rgb(18, 19, 20)" rx="4" ry="4"/><text x="440" y="440" font-size="10" font-family="&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif" dominant-baseline="central" fill="rgb(187, 190, 191)" text-anchor="middle">eth2</text></g><g class="edge-label"><rect x="468.2685546875" y="434" width="23.462890625" height="12" fill="rgb(18, 19, 20)" rx="4" ry="4"/><text x="480" y="440" font-size="10" font-family="&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif" dominant-baseline="central" fill="rgb(187, 190, 191)" text-anchor="middle">eth1</text></g></g><g class="export-edge" data-id="Clab-Link6"><path d="M 540 440 L 640 440" fill="none" stroke="#00df2b" stroke-width="4" opacity="0.5"/><g class="edge-label"><rect x="548.2685546875" y="434" width="23.462890625" height="12" fill="rgb(18, 19, 20)" rx="4" ry="4"/><text x="560" y="440" font-size="10" font-family="&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif" dominant-baseline="central" fill="rgb(187, 190, 191)" text-anchor="middle">eth2</text></g><g class="edge-label"><rect x="592.99755859375" y="434" width="54.0048828125" height="12" fill="rgb(18, 19, 20)" rx="4" ry="4"/><text x="620" y="440" font-size="10" font-family="&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif" dominant-baseline="central" fill="rgb(187, 190, 191)" text-anchor="middle">fw-services</text></g></g><g class="export-edge" data-id="Clab-Link7"><path d="M 760 440 L 680 440" fill="none" stroke="#00df2b" stroke-width="4" opacity="0.5"/><g class="edge-label"><rect x="728.2685546875" y="434" width="23.462890625" height="12" fill="rgb(18, 19, 20)" rx="4" ry="4"/><text x="740" y="440" font-size="10" font-family="&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif" dominant-baseline="central" fill="rgb(187, 190, 191)" text-anchor="middle">eth1</text></g><g class="edge-label"><rect x="672.16259765625" y="434" width="55.6748046875" height="12" fill="rgb(18, 19, 20)" rx="4" ry="4"/><text x="700" y="440" font-size="10" font-family="&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif" dominant-baseline="central" fill="rgb(187, 190, 191)" text-anchor="middle">svc-server1</text></g></g><g class="export-node topology-node" data-id="core-r1"><g transform="rotate(0 400 440)"><rect x="380" y="420" width="40" height="40" rx="4" ry="4" fill="#005aff"/><g transform="translate(380, 420)" style="color: #005aff"><g transform="scale(0.3333)">
+                        
+                        <rect height="120" width="120" fill="currentColor"/>
+                        <g>
+                            <g>
+                                <path d="M71.7,19.7V48h28" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M91.2,38.5l7.5,7.6c1.3,1.3,1.3,3.1,0,4.3L91.1,58" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <g>
+                                <path d="M20,47.8h28.4v-28" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M38.8,28.3l7.6-7.5c1.3-1.3,3.1-1.3,4.3,0l7.7,7.6" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <g>
+                                <path d="M48,100.3V72H20" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M28.5,81.5L21,73.9c-1.3-1.3-1.3-3.1,0-4.3l7.6-7.7" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <g>
+                                <path d="M100,71.9H71.6v28" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M81.2,91.4l-7.6,7.5c-1.3,1.3-3.1,1.3-4.3,0l-7.7-7.6" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </g>
+                    </g></g></g><rect x="378.2819061279297" y="462" width="43.436187744140625" height="18.8" fill="rgba(0, 0, 0, 0.7)" rx="3" ry="3"/><text x="400" y="471.4" font-size="11.2" font-weight="500" font-family="Roboto, sans-serif" dominant-baseline="central" fill="#F5F5F5" text-anchor="middle" filter="url(#text-shadow)">core-r1</text></g><g class="export-node topology-node" data-id="firewall1"><g transform="rotate(0 520 440)"><rect x="500" y="420" width="40" height="40" rx="4" ry="4" fill="#005aff"/><g transform="translate(500, 420)" style="color: #005aff"><g transform="scale(0.3333)">
+                        
+                        <rect height="120" width="120" fill="currentColor"/>
+                        <g>
+                            <g>
+                                <path d="M71.7,19.7V48h28" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M91.2,38.5l7.5,7.6c1.3,1.3,1.3,3.1,0,4.3L91.1,58" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <g>
+                                <path d="M20,47.8h28.4v-28" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M38.8,28.3l7.6-7.5c1.3-1.3,3.1-1.3,4.3,0l7.7,7.6" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <g>
+                                <path d="M48,100.3V72H20" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M28.5,81.5L21,73.9c-1.3-1.3-1.3-3.1,0-4.3l7.6-7.7" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <g>
+                                <path d="M100,71.9H71.6v28" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M81.2,91.4l-7.6,7.5c-1.3,1.3-3.1,1.3-4.3,0l-7.7-7.6" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </g>
+                    </g></g></g><rect x="495.4822998046875" y="462" width="49.035400390625" height="18.8" fill="rgba(0, 0, 0, 0.7)" rx="3" ry="3"/><text x="520" y="471.4" font-size="11.2" font-weight="500" font-family="Roboto, sans-serif" dominant-baseline="central" fill="#F5F5F5" text-anchor="middle" filter="url(#text-shadow)">firewall1</text></g><g class="export-node topology-node" data-id="host1"><g transform="rotate(0 680 240)"><rect x="660" y="220" width="40" height="40" rx="4" ry="4" fill="#005aff"/><g transform="translate(660, 220)" style="color: #005aff"><g transform="scale(0.3333)">
+                        
+                        <rect height="120" width="120" fill="currentColor"/>
+                        <g>
+                            <g>
+                                <path d="M71.7,19.7V48h28" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M91.2,38.5l7.5,7.6c1.3,1.3,1.3,3.1,0,4.3L91.1,58" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <g>
+                                <path d="M20,47.8h28.4v-28" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M38.8,28.3l7.6-7.5c1.3-1.3,3.1-1.3,4.3,0l7.7,7.6" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <g>
+                                <path d="M48,100.3V72H20" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M28.5,81.5L21,73.9c-1.3-1.3-1.3-3.1,0-4.3l7.6-7.7" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <g>
+                                <path d="M100,71.9H71.6v28" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M81.2,91.4l-7.6,7.5c-1.3,1.3-3.1,1.3-4.3,0l-7.7-7.6" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </g>
+                    </g></g></g><rect x="662.3160705566406" y="262" width="35.36785888671875" height="18.8" fill="rgba(0, 0, 0, 0.7)" rx="3" ry="3"/><text x="680" y="271.4" font-size="11.2" font-weight="500" font-family="Roboto, sans-serif" dominant-baseline="central" fill="#F5F5F5" text-anchor="middle" filter="url(#text-shadow)">host1</text></g><g class="export-node topology-node" data-id="host2"><g transform="rotate(0 80 240)"><rect x="60" y="220" width="40" height="40" rx="4" ry="4" fill="#005aff"/><g transform="translate(60, 220)" style="color: #005aff"><g transform="scale(0.3333)">
+                        
+                        <rect height="120" width="120" fill="currentColor"/>
+                        <g>
+                            <g>
+                                <path d="M71.7,19.7V48h28" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M91.2,38.5l7.5,7.6c1.3,1.3,1.3,3.1,0,4.3L91.1,58" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <g>
+                                <path d="M20,47.8h28.4v-28" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M38.8,28.3l7.6-7.5c1.3-1.3,3.1-1.3,4.3,0l7.7,7.6" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <g>
+                                <path d="M48,100.3V72H20" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M28.5,81.5L21,73.9c-1.3-1.3-1.3-3.1,0-4.3l7.6-7.7" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <g>
+                                <path d="M100,71.9H71.6v28" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M81.2,91.4l-7.6,7.5c-1.3,1.3-3.1,1.3-4.3,0l-7.7-7.6" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </g>
+                    </g></g></g><rect x="62.316070556640625" y="262" width="35.36785888671875" height="18.8" fill="rgba(0, 0, 0, 0.7)" rx="3" ry="3"/><text x="80" y="271.4" font-size="11.2" font-weight="500" font-family="Roboto, sans-serif" dominant-baseline="central" fill="#F5F5F5" text-anchor="middle" filter="url(#text-shadow)">host2</text></g><g class="export-node topology-node" data-id="server1"><g transform="rotate(0 780 440)"><rect x="760" y="420" width="40" height="40" rx="4" ry="4" fill="#005aff"/><g transform="translate(760, 420)" style="color: #005aff"><g transform="scale(0.3333)">
+                        
+                        <rect height="120" width="120" fill="currentColor"/>
+                        <g>
+                            <g>
+                                <path d="M71.7,19.7V48h28" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M91.2,38.5l7.5,7.6c1.3,1.3,1.3,3.1,0,4.3L91.1,58" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <g>
+                                <path d="M20,47.8h28.4v-28" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M38.8,28.3l7.6-7.5c1.3-1.3,3.1-1.3,4.3,0l7.7,7.6" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <g>
+                                <path d="M48,100.3V72H20" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M28.5,81.5L21,73.9c-1.3-1.3-1.3-3.1,0-4.3l7.6-7.7" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <g>
+                                <path d="M100,71.9H71.6v28" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M81.2,91.4l-7.6,7.5c-1.3,1.3-3.1,1.3-4.3,0l-7.7-7.6" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </g>
+                    </g></g></g><rect x="757.3477935791016" y="462" width="45.304412841796875" height="18.8" fill="rgba(0, 0, 0, 0.7)" rx="3" ry="3"/><text x="780" y="471.4" font-size="11.2" font-weight="500" font-family="Roboto, sans-serif" dominant-baseline="central" fill="#F5F5F5" text-anchor="middle" filter="url(#text-shadow)">server1</text></g><g class="export-node network-node" data-id="core-sw"><g transform="rotate(0 400 240)"><rect x="380" y="220" width="40" height="40" rx="4" ry="4" fill="#F59E0B"/><g transform="translate(380, 220)" style="color: #F59E0B"><g transform="scale(0.3333)">
+                        
+                        <rect height="120" width="120" fill="currentColor"/>
+                        <g>
+                            <path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M20,70.9c0.6,8,7.8,14.6,16.2,14.6h42.9c7.1,0,13.9-3.6,17.8-9.5c7.8-11.6,0-28.6-13.9-30.8                                 c-1.9-0.2-3.5-0.2-5.4,0l-2,0.2c-1.5,0.2-3-0.5-3.7-2c-3.2-5.8-9.8-9.6-17.3-8.7c-7.8,0.9-15.1,7.2-15.1,14.9v1.3                                 c0,2-1.7,3.6-3.7,3.6h-0.2C26.7,54.5,19.4,62,20,70.9z"/>
+                        </g>
+                    </g></g></g><rect x="376.4191436767578" y="262" width="47.161712646484375" height="18.8" fill="rgba(0, 0, 0, 0.7)" rx="3" ry="3"/><text x="400" y="271.4" font-size="11.2" font-weight="500" font-family="Roboto, sans-serif" dominant-baseline="central" fill="#F5F5F5" text-anchor="middle" filter="url(#text-shadow)">core-sw</text></g><g class="export-node network-node" data-id="dist-sw1"><g transform="rotate(0 540 240)"><rect x="520" y="220" width="40" height="40" rx="4" ry="4" fill="#F59E0B"/><g transform="translate(520, 220)" style="color: #F59E0B"><g transform="scale(0.3333)">
+                        
+                        <rect height="120" width="120" fill="currentColor"/>
+                        <g>
+                            <path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M20,70.9c0.6,8,7.8,14.6,16.2,14.6h42.9c7.1,0,13.9-3.6,17.8-9.5c7.8-11.6,0-28.6-13.9-30.8                                 c-1.9-0.2-3.5-0.2-5.4,0l-2,0.2c-1.5,0.2-3-0.5-3.7-2c-3.2-5.8-9.8-9.6-17.3-8.7c-7.8,0.9-15.1,7.2-15.1,14.9v1.3                                 c0,2-1.7,3.6-3.7,3.6h-0.2C26.7,54.5,19.4,62,20,70.9z"/>
+                        </g>
+                    </g></g></g><rect x="515.4850311279297" y="262" width="49.029937744140625" height="18.8" fill="rgba(0, 0, 0, 0.7)" rx="3" ry="3"/><text x="540" y="271.4" font-size="11.2" font-weight="500" font-family="Roboto, sans-serif" dominant-baseline="central" fill="#F5F5F5" text-anchor="middle" filter="url(#text-shadow)">dist-sw1</text></g><g class="export-node network-node" data-id="dist-sw2"><g transform="rotate(0 220 240)"><rect x="200" y="220" width="40" height="40" rx="4" ry="4" fill="#F59E0B"/><g transform="translate(200, 220)" style="color: #F59E0B"><g transform="scale(0.3333)">
+                        
+                        <rect height="120" width="120" fill="currentColor"/>
+                        <g>
+                            <path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M20,70.9c0.6,8,7.8,14.6,16.2,14.6h42.9c7.1,0,13.9-3.6,17.8-9.5c7.8-11.6,0-28.6-13.9-30.8                                 c-1.9-0.2-3.5-0.2-5.4,0l-2,0.2c-1.5,0.2-3-0.5-3.7-2c-3.2-5.8-9.8-9.6-17.3-8.7c-7.8,0.9-15.1,7.2-15.1,14.9v1.3                                 c0,2-1.7,3.6-3.7,3.6h-0.2C26.7,54.5,19.4,62,20,70.9z"/>
+                        </g>
+                    </g></g></g><rect x="195.4850311279297" y="262" width="49.029937744140625" height="18.8" fill="rgba(0, 0, 0, 0.7)" rx="3" ry="3"/><text x="220" y="271.4" font-size="11.2" font-weight="500" font-family="Roboto, sans-serif" dominant-baseline="central" fill="#F5F5F5" text-anchor="middle" filter="url(#text-shadow)">dist-sw2</text></g><g class="export-node network-node" data-id="services-sw"><g transform="rotate(0 660 440)"><rect x="640" y="420" width="40" height="40" rx="4" ry="4" fill="#F59E0B"/><g transform="translate(640, 420)" style="color: #F59E0B"><g transform="scale(0.3333)">
+                        
+                        <rect height="120" width="120" fill="currentColor"/>
+                        <g>
+                            <path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M20,70.9c0.6,8,7.8,14.6,16.2,14.6h42.9c7.1,0,13.9-3.6,17.8-9.5c7.8-11.6,0-28.6-13.9-30.8                                 c-1.9-0.2-3.5-0.2-5.4,0l-2,0.2c-1.5,0.2-3-0.5-3.7-2c-3.2-5.8-9.8-9.6-17.3-8.7c-7.8,0.9-15.1,7.2-15.1,14.9v1.3                                 c0,2-1.7,3.6-3.7,3.6h-0.2C26.7,54.5,19.4,62,20,70.9z"/>
+                        </g>
+                    </g></g></g><rect x="626.7857666015625" y="462" width="66.428466796875" height="18.8" fill="rgba(0, 0, 0, 0.7)" rx="3" ry="3"/><text x="660" y="471.4" font-size="11.2" font-weight="500" font-family="Roboto, sans-serif" dominant-baseline="central" fill="#F5F5F5" text-anchor="middle" filter="url(#text-shadow)">services-sw</text></g></g></svg>
