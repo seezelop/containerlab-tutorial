@@ -1,0 +1,29 @@
+name: inter-vlan-routing
+
+topology:
+  nodes:
+    host1:
+      kind: linux
+      image: alpine:3.20
+
+    host2:
+      kind: linux
+      image: alpine:3.20
+
+    r1:
+      kind: frr
+      image: quay.io/frrouting/frr:containerlab-10.7.1
+      exec:
+        - ip link add link eth1 name eth1.10 type vlan id 10
+        - ip link add link eth1 name eth1.20 type vlan id 20
+        - ip link set eth1 up
+        - ip link set eth1.10 up
+        - ip link set eth1.20 up
+
+    sw1:
+      kind: ovs-bridge
+
+  links:
+    - endpoints: ["host1:eth1", "sw1:sw1-host1"]
+    - endpoints: ["host2:eth1", "sw1:sw1-host2"]
+    - endpoints: ["r1:eth1", "sw1:sw1-trunk"]
