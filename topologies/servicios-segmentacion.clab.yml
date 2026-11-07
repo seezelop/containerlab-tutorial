@@ -1,0 +1,42 @@
+name: servicios-segmentacion
+
+topology:
+  nodes:
+    core-r1:
+      kind: frr
+      image: quay.io/frrouting/frr:containerlab-10.7.1
+
+    host1:
+      kind: linux
+      image: alpine:3.20
+
+    host2:
+      kind: linux
+      image: alpine:3.20
+
+    server1:
+      kind: linux
+      image: alpine:3.20
+
+    core-sw:
+      kind: ovs-bridge
+
+    dist-sw1:
+      kind: ovs-bridge
+
+    dist-sw2:
+      kind: ovs-bridge
+
+    services-sw:
+      kind: ovs-bridge
+
+  links:
+    - endpoints: ["core-r1:eth1", "core-sw:core-r1-link"]
+
+    - endpoints: ["core-sw:core-dist1", "dist-sw1:dist1-core"]
+    - endpoints: ["core-sw:core-dist2", "dist-sw2:dist2-core"]
+    - endpoints: ["core-sw:core-services", "services-sw:services-core"]
+
+    - endpoints: ["host1:eth1", "dist-sw1:dist1-host1"]
+    - endpoints: ["host2:eth1", "dist-sw2:dist2-host2"]
+    - endpoints: ["server1:eth1", "services-sw:svc-server1"]
