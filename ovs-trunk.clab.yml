@@ -1,0 +1,34 @@
+name: ovs-trunk
+
+topology:
+  nodes:
+    host1:
+      kind: linux
+      image: alpine:3.20
+
+    host2:
+      kind: linux
+      image: alpine:3.20
+
+    host3:
+      kind: linux
+      image: alpine:3.20
+
+    host4:
+      kind: linux
+      image: alpine:3.20
+
+    sw1:
+      kind: ovs-bridge
+
+    sw2:
+      kind: ovs-bridge
+
+  links:
+    - endpoints: ["host1:eth1", "sw1:sw1-eth1"]
+    - endpoints: ["host2:eth1", "sw1:sw1-eth2"]
+
+    - endpoints: ["sw1:sw1-trunk", "sw2:sw2-trunk"]
+
+    - endpoints: ["host3:eth1", "sw2:sw2-eth1"]
+    - endpoints: ["host4:eth1", "sw2:sw2-eth2"]
